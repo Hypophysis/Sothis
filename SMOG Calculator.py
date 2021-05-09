@@ -21,5 +21,5 @@ sentence_count = pamphlet_str.count(".")
 
 # SMOG FORMULA =  (Reading grade level = 3 + √[no. of words with 3 or more syllables] × [30 / no. of sentences])
 SMOG_level= 3 + (count*(30/sentence_count))**(1/2)
-print("SMOG Level", SMOG_level)
+print("SMOG Level:", SMOG_level)
 
